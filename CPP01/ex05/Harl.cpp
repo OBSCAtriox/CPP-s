@@ -6,7 +6,7 @@
 /*   By: tide-pau <tide-pau@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 23:55:15 by tide-pau          #+#    #+#             */
-/*   Updated: 2026/04/11 00:37:48 by tide-pau         ###   ########.fr       */
+/*   Updated: 2026/04/20 15:57:07 by tide-pau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ Harl::Harl( std::string name)
 
 Harl::~Harl()
 {
-    std::cout << name << " has been destroyed" << std::endl;
+    std::cout << "\033[1m" << name << " has been destroyed\033[0m" << std::endl;
 }
 
 void    Harl::debug()
